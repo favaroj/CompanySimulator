@@ -1,0 +1,45 @@
+ASSETS
+Current Assets
+Cash
+32,800
+Accounts Receivable
+300
+Prepaid Rent
+1,000
+Inventory
+39,800
+Total Current Assets
+73,900
+Long-Term Assets
+Leasehold Improvements
+100,000
+Accumulated Depreciation
+(2,000)
+Total Long-Term Assets
+98,000
+Total Assets
+171,900
+LIABILITIES
+Current Liabilities
+Accounts Payable
+49,000
+Accrued Expenses
+450
+Unearned Revenue
+1,000
+Total Current Liabilities
+50,450
+Long-Term Liabilities
+99,500
+Total Liabilities
+149,950
+OWNER'S EQUITY
+Owner's Equity
+Retained Earnings 
+11,950
+Common Stock
+10,000
+Total Owner's Equity
+21,950
+Total Liabilities and Owner's Equity
+171,900
