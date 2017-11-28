@@ -17,8 +17,8 @@ public class FinanceMenu
     public FinanceMenu()
     {
         //System.out.println("========FINANCES========");
-        readFinanceFile();
-        System.out.println("====FINANCE MENU====");
+        //readFinanceFile();
+        System.out.println("\n====FINANCE MENU====");
         System.out.println("1. Main Menu");
         System.out.print("\nPlease enter menu choice: ");
     }
@@ -40,5 +40,5 @@ public class FinanceMenu
         catch(Exception e) {
             System.err.println("Error: " + e.getMessage());
         }
-    }
-}
+    } 
+ }

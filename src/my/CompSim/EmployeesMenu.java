@@ -18,6 +18,7 @@ public class EmployeesMenu
         System.out.println("========EMPLOYEES========");
         System.out.println("1. Managers");
         System.out.println("2. Regular");
+        System.out.println("3. Main Menu");
         System.out.print("\nPlease enter choice: ");
         //System.out.println("ID: " + id + "\nName: " + name + "\nAddress: " + address);
     }
