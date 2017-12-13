@@ -11,32 +11,20 @@ package my.CompSim;
  */
 public class Manager extends Employee
 {
-    protected String department;
     protected String educationLevel;
     
-    public Manager(int id, String name, String address, int yearsEmployed, int skillRating, double salary, String position, String department, String educationLevel)
+    public Manager(int id, String name, String address, boolean hired, int skillRating, double salary, String department, String position, String educationLevel)
     {
-        super(id, name, address, yearsEmployed, skillRating, salary, position);
+        super(id, name, address, hired, skillRating, salary, department, position);
         
-        this.department = department;
         this.educationLevel = educationLevel;
     }
     /*GETTERS*/
-    public String getDepartment()
-    {
-        return this.department;
-    }
-    
     public String getEducationLevel()
     {
         return this.educationLevel;
     }
     /*SETTERS*/
-    public void setDepartment(String department)
-    {
-        this.department = department;
-    }
-    
     public void setEducationLevel(String educationLevel)
     {
         this.educationLevel = educationLevel;

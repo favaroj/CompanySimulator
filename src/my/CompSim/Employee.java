@@ -9,94 +9,108 @@ package my.CompSim;
  *
  * @author FavaroJohn
  */
-public abstract class Employee 
+public abstract class Employee
 {
+
     protected int id;
     protected String name;
     protected String address;
-    protected int yearsEmployed;
+    protected boolean hired;
     protected int skillRating;
     protected double salary;
     protected String position;
-    
-    public Employee(int id, String name, String address, int yearsEmployed, int skillRating, double salary, String position) 
+    protected String department;
+
+    public Employee(int id, String name, String address, boolean hired, int skillRating, double salary, String department, String position)
     {
         this.id = id;
         this.name = name;
         this.address = address;
-        this.yearsEmployed = yearsEmployed;
+        this.hired = hired;
         this.skillRating = skillRating;
         this.salary = salary;
+        this.department = department;
         this.position = position;
     }
+
     /*GETTER METHODS*/
     public int getId()
     {
         return this.id;
     }
-    
+
     public String getName()
     {
         return this.name;
     }
-    
+
     public String getAddress()
     {
         return this.address;
     }
-    
-    public int getYearsEmployed()
+
+    public boolean getHired()
     {
-        return this.yearsEmployed;
+        return this.hired;
     }
-    
+
     public int getSkillRating()
     {
-        return this.skillRating;       
+        return this.skillRating;
     }
-    
+
     public double getSalary()
     {
         return this.salary;
     }
     
+    public String getDepartment()
+    {
+        return this.department;
+    }
+
     public String getPosition()
     {
         return this.position;
     }
-    
+
     /*SETTER METHODS*/
     public void setId(int id)
     {
         this.id = id;
     }
-    
+
     public void setName(String name)
     {
         this.name = name;
     }
-    
-    public void setAddress(String address) 
+
+    public void setAddress(String address)
     {
         this.address = address;
     }
-    
-    public void setYearsEmployed(int yearsEmployed) 
+
+    public void setHired(boolean hired)
     {
-        this.yearsEmployed = yearsEmployed;
+        this.hired = hired;
     }
-    
-    public void setSkillRating(int skillRating) 
+
+    public void setSkillRating(int skillRating)
     {
         this.skillRating = skillRating;
     }
-    
-    public void setSalary(double salary) 
+
+    public void setSalary(double salary)
     {
         this.salary = salary;
     }
     
-    public void setPosition(String position) 
+    public void setDepartment(String department)
+    {
+        this.department = department;
+    }
+
+    public void setPosition(String position)
     {
         this.position = position;
     }

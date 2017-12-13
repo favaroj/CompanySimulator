@@ -29,4 +29,9 @@ public class AccountSummary extends Finances {
     {
         this.summary = summary;
     }
+    
+    public void endBusinessDay()
+    {
+        
+    }
 }
